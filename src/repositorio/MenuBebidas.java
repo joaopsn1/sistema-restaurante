@@ -7,6 +7,7 @@ public interface MenuBebidas {
         System.out.println("2- Suco de Laranja - R$ 7,00");
         System.out.println("3- Água - R$ 2,00");
         System.out.println("4- Heineken - R$ 10,00");
+        System.out.println("0- Sair do Menu Bebidas");
     }
 
     public default double getPrecoBebidas(int opcao) {

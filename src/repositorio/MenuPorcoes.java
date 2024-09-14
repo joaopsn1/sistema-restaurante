@@ -7,6 +7,7 @@ public interface MenuPorcoes {
         System.out.println("2- Bolinho de Costela - R$ 28,00");
         System.out.println("3- Tiras de Tilápia - R$ 22,00");
         System.out.println("4- Frango a Passarinho - R$ 25,00");
+        System.out.println("0- Sair do Menu Porções");
     }
 
     public default double getPrecoPorcoes(int opcao) {

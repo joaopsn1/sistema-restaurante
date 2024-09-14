@@ -7,6 +7,7 @@ public interface MenuDoces {
         System.out.println("2- Brownie c/ Sorvete - R$ 18,00");
         System.out.println("3- Churros - R$ 15,00");
         System.out.println("4- Taça de Sorvete - R$ 25,00");
+        System.out.println("0- Sair do Menu Doces");
     }
 
     public default double getPrecoDoces(int opcao) {

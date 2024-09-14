@@ -7,6 +7,7 @@ public interface MenuPratos {
         System.out.println("2- Bife a Cavalo - R$ 21,00");
         System.out.println("3- Risoto de 2 queijos - R$ 49,50");
         System.out.println("4- Strogonoff de Frango - R$ 33,50");
+        System.out.println("0- Sair do Menu Pratos Feitos");
     }
 
     public default double getPrecoPratos(int opcao) {
